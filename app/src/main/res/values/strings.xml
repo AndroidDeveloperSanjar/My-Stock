@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">MYSTOCK</string>
-    <string name="profile_total_value">$%.2f</string>
     <string name="profile_total_value_label">Umumiy qiymat</string>
     <string name="profile_name_label">To\'liq ism</string>
     <string name="profile_account_number_label">Akkaunt nomer</string>
@@ -8,7 +7,8 @@
     <string name="profile_my_stocks_label">Mening aktsiyalarim</string>
     <string name="profile_recommended_stock_label">Tavsiya etilgan aktsiya</string>
     <string name="profile_refresh_recommended_stock_description">Tavsiya etilgan aktsiyalarni yangilang</string>
-    <string name="profile_tip_title">Tavsiya etilgan aktsiya</string>
-    <string name="profile_tip_message">Karimov Sanjar dasturiy ta\'minoti uchun clean codeda yozilgan portfolio</string>
+    <string name="profile_tip_title">Ilova haqida qisqacha</string>
+    <string name="profile_tip_message">Bu ilova juda sodda. Bunda mening aktsiyalarimning ko\'tarilishi yoki tushishini
+    ko\'rishingiz mumkin. Created: Sanjar</string>
     <string name="_123_45">$123.45</string>
 </resources>
