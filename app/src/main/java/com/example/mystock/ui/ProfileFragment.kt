@@ -95,7 +95,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile){
         viewModel.totalValue.observe(
             viewLifecycleOwner,
             Observer { total ->
-                totalValueTextView.text =  "$ $total"
+                totalValueTextView.text =  "$$total"
             }
         )
     }
@@ -129,6 +129,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile){
     )
 
     private fun displayTipDialog() {
+        log("displayTipDialog()")
         AlertDialog.Builder(requireContext())
             .setTitle(R.string.profile_tip_title)
             .setMessage(R.string.profile_tip_message)
